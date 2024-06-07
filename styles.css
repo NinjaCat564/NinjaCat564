@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;/*hier staat de style voor de text in de body*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:  #49111C;
+    background-color: #F2F4F3;
+ }
+header {
+    background-color: #A9927D;
+    color: #fff;
+    padding: 10px 0;
+ }
+nav ul {/*dit is de style voor de navigatie balk*/
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+ }
+nav ul li {
+    margin: 0 15px;
+ }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+ }
+main {/*dit is voor de locatie van text op de pagina*/
+    padding: 20px;
+    text-align: center;
+ }
+footer {/*dit is voor onze footer*/
+    background-color: #A9927D;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+ }
+.product-box {/*dit is voor onze producten*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+.product {
+    border: 3px solid #49111C;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+ }
+.product img {
+   width: 100%;
+ }
+.informatie-box {/*dit is voor informatie die in een aparte plek moet, niet op de main pagina*/
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.informatie {
+   border: 3px solid #49111C;
+   padding: 20px;
+   margin: 10px;
+   width: 60%;
+   text-align: center;
+}
+button {
+    background-color: #A9927D;/*dit is de style voor de knoppen, hoewel ze nu niet werken*/
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+ }
+button:hover {
+    background-color: #555;
+ }
